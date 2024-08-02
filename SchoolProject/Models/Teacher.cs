@@ -13,7 +13,7 @@ namespace SchoolProject.Models
     {
         // The following fields define a teacher
         public int TeacherId { get; set; }
-       
+        [Required]
         public decimal? Salary { get; set; }
         [Required]
         public string EmployeeNumber { get; set; }
